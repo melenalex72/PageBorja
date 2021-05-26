@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Pregunta seria</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        body 
+        {
+            background-color: lightblue;
+        }
+        .si
+        {
+            background-color: hotpink;
+            padding-left: 30px;
+            padding-bottom: 20px;
+        }
+        .no 
+        {
+            background-color: ;
+            padding-left: 30px;
+            padding-bottom: 20px;
+        }
+    </style>
+    
+    <script>
+        function accionParaCuandoEllaDigaQueSi(){
+            alert('´Sabía que aceptarías jeje <3');
+        }
+
+        function mueveElBoton(){
+            width = window.innerWidth;
+            height = window.innerHeight;
+
+            newWidth = (Math.random() * width);
+            newHeight = (Math.random() * height);
+
+            document.getElementById('btnNo').style.position = "absolute";
+            document.getElementById('btnNo').style.left = newWidth + "px";
+            document.getElementById('btnNo').style.top = newHeight + "px";
+            
+
+        }
+    </script>
+</head>
+<body>
+    <center>
+        <form class="respuesta">
+    <h3>¿Quieres ser mi novia?</h3>
+    <input type="button" class="si" onclick="accionParaCuandoEllaDigaQueSi()" id="btnSi" value="Si" />
+    <input type="button" class="no" id="btnNo" onmouseover="mueveElBoton()" value="No" />
+        </form>
+    </center>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    Hola, soy Borja, esta pagina web fue creada solo para divertir.
+</body>
+</html>
